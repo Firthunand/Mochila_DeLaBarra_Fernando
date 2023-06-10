@@ -1,0 +1,14 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?
+
+R:  La compatibilidad de un lenguaje de programación con un sistema operativo depende de múltiples factores, incluido el diseño, la implementación, las dependencias del sistema operativo y el soporte de la comunidad. No todos los lenguajes son compatibles con todos los sistemas operativos, pero muchos lenguajes populares son multiplataforma y pueden ejecutarse en diferentes entornos operativos con ciertas adaptaciones.
+
+¿Qué tipo de máquina virtual es virtualBox?
+
+R: VirtualBox es una máquina virtual de tipo 2, también conocida como hipervisor de nivel de software o virtualización a nivel de sistema operativo. Que permite la virtualización de sistemas operativos dentro de un sistema operativo anfitrión existente. Es ampliamente utilizado tanto para propósitos de desarrollo y pruebas como para ejecutar sistemas operativos adicionales en un entorno seguro y aislado.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+
+R: Si una máquina virtual se rompe o experimenta algún problema, esto no debería afectar directamente a otras máquinas virtuales que estén en ejecución en el mismo hipervisor (como VirtualBox) u otros sistemas operativos en el sistema anfitrión. Cada máquina virtual funciona como un entorno virtualizado y aislado, lo que significa que tiene su propio sistema operativo, recursos y aplicaciones independientes.
+Sin embargo, hay algunas situaciones en las que un problema en una máquina virtual podría afectar indirectamente a otras máquinas virtuales o al entorno del sistema anfitrión. Estas situaciones pueden incluir: Recursos compartidos,Interconexiones de red,Problemas de seguridad. Es importante tener en cuenta que estas situaciones son casos excepcionales y, en condiciones normales, los problemas en una máquina virtual no deberían afectar directamente a otras máquinas virtuales. Sin embargo, es recomendable tomar medidas para asegurar y monitorear adecuadamente todas las máquinas virtuales, implementar políticas de recursos adecuadas y mantener actualizadas las medidas de seguridad para minimizar cualquier impacto potencial en caso de problemas.
