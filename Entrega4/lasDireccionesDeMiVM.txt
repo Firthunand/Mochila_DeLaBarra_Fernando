@@ -1,0 +1,7 @@
+Mac de mi MV
+HWaddr 08:00:27:06:18:9f
+
+Ip de MV  
+ inet addr:10.0.2.15
+
+las ip tanto publicas como privadas son diferentes 
